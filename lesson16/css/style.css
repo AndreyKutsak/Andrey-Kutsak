@@ -116,9 +116,19 @@ section .content-wraper .image-wraper {
   margin-bottom: 30px;
 }
 
+section .content-wraper .image-wraper img {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
 section .content-wraper .image-wraper:hover .text-wraper {
   -webkit-transform: translate(0%);
           transform: translate(0%);
+}
+
+section .content-wraper .image-wraper:hover img {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 section .content-wraper .image-wraper .text-wraper {
